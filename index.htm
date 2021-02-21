@@ -50,15 +50,15 @@
              <div class="row gender">
                <label for="">Gender</label>
               <div class="col-md-4">
-                  <input type="radio" id="genderMele"value="Mele"> <span>Mele</span>
+                  <input type="radio" name="type" value="Mele" onclick="CheckUserData()"> <span>Mele</span>
                </div>
 
                <div class="col-md-4">
-                <input type="radio" id="genderFemale" value="Female"> <span>Female</span>
+                <input type="radio" name="type" value="Female" onclick="CheckUserData()"> <span>Female</span>
               </div>
 
               <div class="col-md-4">
-                <input type="radio" id="genderOther" value="Other"> <span>Other</span>
+                <input type="radio" name="type" value="Other" onclick="CheckUserData()"> <span>Other</span>
               </div>
              </div>
             
@@ -78,7 +78,6 @@
              <div id="confrimPasswordError" class="errorMessage"></div>
              <input type="button"  id="registerBtn" class="form-control mt-2 btn btn-success" value="Create account">
            </div>
-           
          </div>
       </form>
     </div>

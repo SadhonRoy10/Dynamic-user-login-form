@@ -30,7 +30,9 @@ registerBtn.addEventListener('click',()=>{
 })
 
 function CheckUserData(){
-
+    
+    const nameType= document.getElementsByName("type");
+    
     if(email.value.indexOf('@')<=0){
         errorEMail.innerHTML="Please include a valid email";
         email.focus();
@@ -61,6 +63,19 @@ function CheckUserData(){
         lastName.focus();
         return false;
     }
+    if(nameType[0].checked){
+        const typeValue= nameType[0].value;
+        alert(typeValue);
+    }
+    else if(nameType[1].checked){
+        const typeValue= nameType[1].value;
+        alert(typeValue);
+    }
+    else if(nameType[2].checked){
+        const typeValue= nameType[2].value;
+        alert(typeValue);
+    }
+
     if(dateOfBirth.value==""){
         dateError.innerHTML="Select date of birth.";
         dateOfBirth.focus();
