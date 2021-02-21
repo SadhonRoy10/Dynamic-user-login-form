@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* a#userProfile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid gray;
+}
+a#userProfile img{
+    height: 113%;
+    width: 100%;
+
+}
+div#navbarNavAltMarkup {
+    width: 100%;
+}
+.navbar-nav {
+    float: right;
+} */
+
+
+form#fromCotroler {
+    width: 330px;
+    margin: auto;
+    padding: 20px;
+}
+
+.Logo {
+    width: 150px;
+    margin: auto;
+}
+
+.loginPanelHeader img {
+    width: 100%;
+    height: 100%;
+}
+.loginPanelHeader h2 {
+    margin-top: 8px;
+    color: #828282;
+    font-size: 25px;
+}
+
+.loginPanelArea {
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px 0px #10101014;
+    background: #f7f7f7;
+    padding: 15px;
+    
+}
+
+
+.loginPanelHeader {
+    padding: 15px;
+}
+.userIcon {
+    font-size: 75px;
+    color: #80808042;
+    text-align: center;
+}
+.InputHeader{
+    font-size: 13px;
+    color: #848484;
+}
+.form-control {
+    font-size: 13px;
+}
+.gender{
+    font-size: 13px;
+    color: #848484;
+    padding: 3px 0px;
+}
+.errorMessage {
+    font-size: 13px;
+    margin-top: 5px;
+    color: red;
+}

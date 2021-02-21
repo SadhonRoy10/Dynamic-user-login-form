@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/user1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/af4a266d96.js" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <title>User account create</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <form action="" id="fromCotroler">
+        <div class="loginPanelHeader text-center justify-content-center">
+           <div class="Logo">
+             <img src="images/logo.png" alt="">
+           </div>
+          <h2>Create account</h2>
+          <p>Sing in with your account</p>
+        </div>
+
+         <div class="loginPanelArea">
+           <div class="userIcon">
+            <i class="fas fa-user-circle"></i>
+           </div>
+           <div class="userInput">
+             <span id="" class="InputHeader">Email </span>
+             <input type="email" id="email" class="form-control" placeholder="Email or Phone">
+             <div id="errorEMail" class="errorMessage"></div>
+             <div class="row">
+               <div class="col-md-6">
+                  <span id="" class="InputHeader">Frist Name</span>
+                  <input type="text" id="firstName" class="form-control" placeholder="Frist Name">
+                  <div id="firstNameError" class="errorMessage"></div>
+                </div>
+
+               <div class="col-md-6">
+                  <span id="" class="InputHeader">Last Name</span>
+                  <input type="text" id="lastName" class="form-control" placeholder="Last Name">
+                  <div id="lastNameError" class="errorMessage"></div>
+                </div>
+             </div>
+
+             <div class="row gender">
+               <label for="">Gender</label>
+              <div class="col-md-4">
+                  <input type="radio" id="genderMele"value="Mele"> <span>Mele</span>
+               </div>
+
+               <div class="col-md-4">
+                <input type="radio" id="genderFemale" value="Female"> <span>Female</span>
+              </div>
+
+              <div class="col-md-4">
+                <input type="radio" id="genderOther" value="Other"> <span>Other</span>
+              </div>
+             </div>
+            
+             
+             
+             <span id="" class="InputHeader">Date of Birth</span>
+             <input type="date" id="dateOfBirth" class="form-control">
+             <div id="dateError" class="errorMessage"></div>
+             
+             <span id="" class="InputHeader">Password</span>
+             <input type="text" id="password" class="form-control" placeholder="Password">
+             
+             <div id="passwordError" class="errorMessage"></div>
+             
+             <span id="" class="InputHeader">Confrim Pass</span>
+             <input type="text"  id="confrimPassword" class="form-control" placeholder="Confrim Pass">
+             <div id="confrimPasswordError" class="errorMessage"></div>
+             <input type="button"  id="registerBtn" class="form-control mt-2 btn btn-success" value="Create account">
+           </div>
+           
+         </div>
+      </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
